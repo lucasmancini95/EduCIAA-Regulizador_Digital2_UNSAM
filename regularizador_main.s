@@ -1,4 +1,3 @@
-	hola
 	.cpu arm7tdmi
 	.eabi_attribute 20, 1
 	.eabi_attribute 21, 1

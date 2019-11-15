@@ -306,13 +306,12 @@ main:
 	ldr	r3, .L19
 	ldrb	r3, [r3]	@ zero_extendqisi2
 	cmp	r3, #0
-	beq	.L17
+	beq	.L18
 	sub	r2, fp, #644
 	sub	r3, fp, #324
 	mov	r1, r2
 	mov	r0, r3
 	bl	signal_fill
-.L17:
 	ldr	r3, .L19
 	mov	r2, #0
 	strb	r2, [r3]

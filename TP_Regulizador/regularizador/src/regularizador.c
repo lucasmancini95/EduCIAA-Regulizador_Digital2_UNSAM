@@ -133,9 +133,10 @@ int main(void) {
 	while(1){
 
 
-		if(TEC_flag == 1)
+		if(TEC_flag == 1){
 			signal_fill(src_signal_0,src_signal_1);
-		    TEC_flag = 0;
+		  TEC_flag = 0;
+			}
 		}
 
 		return 0;
